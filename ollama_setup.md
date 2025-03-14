@@ -62,3 +62,7 @@ ollama run llama3.1:8b ### example to run specific model
    ```python
    nohup ollama serve > ollama.log 2>&1 &
    ```
+8. listing ollama:
+   ```python
+   ollama list
+   ```
