@@ -58,4 +58,7 @@ ollama run llama3.1:8b ### example to run specific model
        ollama create llama_finetuned_model -f llama3_finetuned.modelfile
        ```
 
-8. 
+7. Serve the ollama in the background using nohup
+   ```python
+   nohup ollama serve > ollama.log 2>&1 &
+   ```
